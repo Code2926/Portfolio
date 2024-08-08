@@ -1,0 +1,458 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+
+<head>
+  <meta charset="UTF-8" >
+  <link rel="shortcut icon" href="white_on_trans" type="image/x-icon">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" >
+  <link rel="preconnect" href="https://fonts.googleapis.com" >
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin >
+  <link href="https://cdn.jsdelivr.net/npm/remixicon@4.3.0/fonts/remixicon.css" rel="stylesheet" >
+  <link href="https://fonts.googleapis.com/css2?family=Inter+Tight:ital,wght@0,100..900;1,100..900&display=swap"
+    rel="stylesheet" >
+  <link rel="preconnect" href="https://fonts.googleapis.com" >
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin >
+  <link href="https://fonts.googleapis.com/css2?family=Unbounded:wght@200..900&display=swap" rel="stylesheet" >
+
+  <!-- swiper js css -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" >
+
+  <title>Muhammad Azan Ahmad</title>
+  <script type="module" crossorigin src="script.js"></script>
+  <link rel="stylesheet" crossorigin href="styles.css">
+</head>
+
+<body class="relative">
+
+  <!-- Slider-->
+  <div class="slider w-full h-screen bg-black absolute top-0 z-20 flex justify-center items-center transition-transform duration-1000" id="slider">
+    <div class="name-slide text-4xl font-medium text-white text-center space-y-4">
+        <h1 class="inline-block animate__animated animate__fadeIn animate__delay-1s">Hi, I'm</h1>
+        <h1 class="inline-block animate__animated animate__fadeIn animate__delay-2s">Muhammad</h1>
+        <h1 class="inline-block animate__animated animate__fadeIn animate__delay-3s">Azan</h1>
+        <h1 class="inline-block animate__animated animate__fadeIn animate__delay-3s">Ahmad</h1>
+        <p class="text-md font-thin animate__animated animate__fadeIn animate__delay-4s">Front-end Web Developer</p>
+    </div>
+</div> 
+  <!-- for menu -->
+<div class="menu-wrap md:px-10 max-w-7xl mx-auto relative z-30 hidden opacity-0">
+  <div class="menu-card md:right-10 right-0 md:top-10 top-6 absolute bg-white p-5 rounded-xl shadow-2xl w-80">
+    <div class="cross absolute top-0 right-3 cursor-pointer">X</div>
+    <div class="logo-name flex justify-start items-center space-x-4 pb-16">
+      <!-- Small Size -->
+      <div class="logo-img w-12 h-12 bg-gray-100 p-1 rounded-full overflow-hidden">
+        <img src="imresizer-1723016699502.png" alt="My-img" class="w-full h-full object-cover rounded-full">
+      </div>
+      <div>
+        <h1 class="font-semibold font-inter text-md">Muhammad Azan Ahmad</h1>
+        <p class="para">azanahmad29266@gmail.com</p>
+      </div>
+    </div>
+
+    <h1 class="font-semibold font-inter text-xl">Muhammad Azan Ahmad</h1>
+    <ul class="space-y-2 font-inter items-center bg-white max-w-sm text-[12px] pb-16">
+      <li class="menu-list"><a href="#Project">Projects</a></li>
+      <li class="menu-list"><a href="#About">About</a></li>
+      <li class="menu-list"><a href="#Services">Service</a></li>
+      <li class="menu-list"><a href="#Contact">Contact</a></li>
+    </ul>
+    <p class="font-light font-inter text-[10px]"> &#169; 2024 | Muhammad Azan Ahmad <br>all rights reserved</p>
+    <a href="my_cv.pdf" download="Muhammad-Azan-Ahmad" class="text-[10px] underline underline-offset-2 text-gray-500 hidden md:block">Download CV</a>
+
+    <ul class="flex justify-center space-x-4 text-md py-3">
+      <li class="bg-black text-white px-2 hover:bg-gray-400 hover:text-white duration-200 rounded-full">
+        <a href="#" target="_blank"><i class="ri-github-fill"></i></a>
+      </li>
+      <li class="bg-black text-white px-2 hover:bg-gray-400 hover:text-white duration-200 rounded-full">
+        <a href="#" target="_blank"><i class="ri-linkedin-fill"></i></a>
+      </li>
+      <li class="bg-black text-white px-2 hover:bg-gray-400 hover:text-white duration-200 rounded-full">
+        <a href="#" target="_blank"><i class="ri-instagram-fill"></i></a>
+      </li>
+      <li class="bg-black text-white px-2 hover:bg-gray-400 hover:text-white duration-200 rounded-full">
+        <a href="#" target="_blank"><i class="ri-telegram-fill"></i></a>
+      </li>
+    </ul>
+  </div>
+</div>
+<!-- for menu end -->
+
+<div class="main md:px-10 py-3 max-w-7xl mx-auto">
+  <!-- navbar start -->
+  <nav class="navbar flex justify-between items-center bg-[#F6F5FA] p-3 rounded-tr-lg rounded-tl-lg">
+    <div class="title font-inter">
+      <p class="font-semibold text-sm leading-3">Muhammad Azan Ahmad</p>
+      <p class="text-[0.7rem]">Front-end Web Developer</p>
+    </div>
+    <div class="logo-img md:w-16 w-10 bg-gray-100 p-1 rounded-full overflow-hidden">
+      <img src="imresizer-1723016699502.png" alt="My-img" class="w-full h-full object-cover rounded-full">
+    </div>
+    <div class="menu space-x-5 flex justify-center">
+      <a href="my_cv.pdf" download="Muhammad-Azan-Ahmad" class="text-sm underline underline-offset-2 hidden md:block">Download CV</a>
+      <div class="hamburger">
+        <div class="hambuger-top"></div>
+        <div class="hambuger-middle"></div>
+        <div class="hambuger-bottom"></div>
+      </div>
+    </div>
+  </nav>
+  <!-- navbar end -->
+
+    <!-- hero section start -->
+    <div class="hero relative text-center bg-[#F6F5FA] md:bg-transparent md:p-0 p-3 py-48 md:py-0  ">
+      <video src="hero-bg.mp4" autoplay="" muted="" loop="" class="absolute top-0 left-0 -z-10"></video>
+
+      <h1 class="hero-title md:text-4xl text-2xl font-heroHead font-semibold max-w-md md:pt-56 mx-auto pb-2" style="translate: none; rotate: none; scale: none; opacity: 1; transform: translate(0px, 0px);">
+        Quality Design &amp; Web Developer
+      </h1>
+      <p class="hero-para font-inter max-w-lg mx-auto pb-16" style="translate: none; rotate: none; scale: none; opacity: 1; transform: translate(0px, 0px);">
+        I create intuitive design for websites and apps, helping businesses
+        enhance user experience, boost key metrics and achieve digital
+        leadership
+      </p>
+
+      <a href="#contact" class="bg-white px-6 py-3 rounded-full shadow-lg md:hidden">Contact</a>
+      <button class="absolute -bottom-4 px-4 py-4 rounded-[50%] bg-black text-white left-1/2 transform -translate-x-1/2 md:hidden">
+        <a href="#Project"><i class="ri-arrow-down-line"></i></a>
+      </button>
+      <div class="bottom-details h-[9rem] md:flex justify-between items-end hidden">
+        <div class="para w-1/2 m-3">
+          <p class="font-inter text-[0.75rem] py-8 text-left text-gray-400 max-w-sm">
+            Quality design &amp; web development create intuitive design for
+            websites , helping businesses enhance user experience, boost key
+            metrics and achieve digital leadershipRequest a
+            projectProjectsService.
+          </p>
+        </div>
+        <div class="links w-1/2 flex justify-end">
+          <ul class="flex space-x-3 justify-end font-inter items-center bg-white max-w-sm px-6 py-1 rounded-tl-lg rounded-br-lg">
+            <li><a href="#Project">Projects</a></li>
+            <li><a href="#About">About</a></li>
+            <li><a href="#Services">Service</a></li>
+            <li class="px-4 py-2 bg-black rounded-full text-white">
+              <a href="#Contact">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+<!-- hero section end -->
+
+    <!-- Projects section -->
+    <section id="Project" class="projects py-16 w-full">
+      <div class="Project-details flex md:flex-row flex-col">
+        <div class="project-l h-full md:w-1/3 p-3 text-center md:text-left">
+          <h2 class="font-inter text-3xl ">Projects</h2>
+          <p class="font-inter text-sm text-gray-400">
+            I have created completely responsive landing pages layouts , good
+            UI/UX design and practice projects
+          </p>
+        </div>
+        <div class="project-r w-full p-3">
+          <!-- Project Cards -->
+          <div class="card_container flex gap-5 flex-wrap justify-center">
+            <div class="car-1 md:text-left text-center md:w-[45%] w-full  space-y-1">
+              <div class="card1 h-56 rounded-xl overflow-hidden relative card-img">
+                <img src="https://ahmad-nazir-pf.netlify.app/assets/images/shortly-web.webp" class="h-full w-full transform duration-150" alt="" />
+              </div>
+              <h2 class="text-lg font-normal font-inter">
+                URL shortening API landing page
+              </h2>
+              <p class="para">
+                Integrate with the Clean URI link shortening API and play with
+                browser storage in this landing page challenge.
+              </p>
+            </div>
+            <div class="car-1 md:text-left text-center md:w-[45%] w-full space-y-1">
+              <div class="card1 h-56 rounded-xl overflow-hidden relative card-img">
+                <img src="https://ahmad-nazir-pf.netlify.app/assets/images/loopstudio.webp" class="h-full w-full transform duration-150" alt="" />
+              </div>
+              <h2 class="text-lg font-normal font-inter">
+                Loopstudios landing page
+              </h2>
+              <p class="para">
+                This challenge is perfect that l test your CSS Grid chops. Even without Grid, this project will be a fun
+                one to help you practice your layout skills!
+              </p>
+            </div>
+            <div class="car-1 md:text-left text-center md:w-[45%] w-full space-y-1 ">
+              <div class="card1 h-56 rounded-xl overflow-hidden relative card-img">
+                <img src="https://ahmad-nazir-pf.netlify.app/assets/images/scramble.jpg" class="h-full w-full transform duration-150" alt="" />
+              </div>
+              <h2 class="text-lg font-normal font-inter">
+                Scramble Game
+              </h2>
+              <p class="para">
+
+                Create a scramble game using HTML for structure, CSS for styling, and JavaScript for game logic.
+              </p>
+            </div>
+            <div class="car-1 md:text-left text-center md:w-[45%] w-full space-y-1">
+              <div class="card1 h-56 rounded-xl overflow-hidden relative card-img">
+                <img src="https://ahmad-nazir-pf.netlify.app/assets/images/calculator.jpeg" class="h-full w-full transform duration-150" alt="" />
+              </div>
+              <h2 class="text-lg font-normal font-inter">
+                Calculator
+              </h2>
+              <p class="para">
+                Create a calculator using HTML for structure, CSS for styling, and JavaScript for functionality,
+                enabling basic arithmetic operations. The interface includes buttons for digits, operations, and a
+                display screen to show results.
+              </p>
+            </div>
+          </div>
+          <!-- end project cards -->
+          <div class="other-projects py-10 px-8">
+            <h3>Other Projects <span class="bg-slate-200 p-1 text-xs rounded-lg">6</span></h3>
+            <div class="other-pro-container py-3 divide-y-2 ">
+              <div class="pro1  py-8 gap-4 items-center">
+                <div class="Title-img cursor-pointer relative">Clipboard <span><i
+                      class="ri-arrow-right-up-line"></i></span>
+                  <a href="https://ahmadmalik-clipboard.netlify.app/"
+                    class="pro-img opacity-0 absolute top-1/2 transform -translate-y-1/2 -translate-x-1/2 left-0 shadow-xl  "><img
+                      src="https://ahmad-nazir-pf.netlify.app/assets/images/clipboard.webp" class="rounded-lg w-full h-full" alt="" srcset=""></a>
+                </div>
+                <p class="para "> A impressive landing page</p>
+              </div>
+              <div class="pro1   py-8  gap-4 items-center">
+                <div class="Title-img cursor-pointer relative ">Tic Tac Toe <span><i
+                      class="ri-arrow-right-up-line"></i></span>
+                  <a href="https://ahmadmalik22.github.io/tic_tac_toe.github.io/"
+                    class="pro-img opacity-0 absolute top-1/2 transform -translate-y-1/2 -translate-x-1/2  left-0 shadow-xl  "><img
+                      src="https://ahmad-nazir-pf.netlify.app/assets/images/tic_tac.jpeg" class="rounded-lg w-full h-full" alt="" srcset=""></a>
+                </div>
+                <p class="para ">
+                  Create a Tic Tac Toe game using HTML for structure, CSS for styling, and JavaScript for game logic.
+                </p>
+              </div>
+              <div class="pro1   py-8 gap-4  items-center ">
+                <div class="Title-img cursor-pointer relative">E-commerce Website<span><i
+                      class="ri-arrow-right-up-line"></i></span>
+                  <a href="https://ahmad-web-store.netlify.app/"
+                    class="pro-img opacity-0 absolute top-1/2  transform -translate-y-1/2 -translate-x-1/2 left-0 shadow-xl  "><img
+                      src="https://ahmad-nazir-pf.netlify.app/assets/images/ecom.jpeg" class="rounded-lg w-full h-full" alt="" srcset=""></a>
+                </div>
+                <p class="para ">
+                  Create E-commerce website using HTML for structure, CSS for styling, and JavaScript for game logic.
+                </p>
+              </div>
+              <div class="pro1   py-8 gap-4  items-center ">
+                <div class="Title-img cursor-pointer relative ">Weather App<span><i
+                      class="ri-arrow-right-up-line"></i></span>
+                  <a href="https://ahmadmalik22.github.io/weather.github.io/"
+                    class="pro-img opacity-0 absolute top-1/2  transform -translate-y-1/2 -translate-x-1/2 left-0 shadow-xl  "><img
+                      src="https://ahmad-nazir-pf.netlify.app/assets/images/weather.jpeg" class="rounded-lg w-full h-full" alt="" srcset=""></a>
+                </div>
+                <p class="para ">
+                  I developed a weather app using HTML, CSS, and JavaScript, which fetches real-time weather data
+                  through an API. The app provides current conditions, forecasts, and other weather-related information
+                  for any location.
+                </p>
+              </div>
+              <div class="pro1   py-8 gap-4  items-center ">
+                <div class="Title-img cursor-pointer relative ">Scramble Game<span><i
+                      class="ri-arrow-right-up-line"></i></span>
+                  <a href="https://ahmadmalik22.github.io/scramblegame.github.io/"
+                    class="pro-img opacity-0 absolute top-1/2  transform -translate-y-1/2 -translate-x-1/2 left-0 shadow-xl  "><img
+                      src="https://ahmad-nazir-pf.netlify.app/assets/images/scramble.jpg" class="rounded-lg w-full h-full" alt="" srcset=""></a>
+                </div>
+                <p class="para ">
+                  Create a scramble game using HTML for structure, CSS for styling, and JavaScript for game logic.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="Services" class="serivces py-16 w-full">
+      <div class=" flex md:flex-row flex-col">
+        <div class="project-l h-full md:w-1/3 p-3 text-center md:text-left">
+          <h2 class="font-inter text-3xl ">Services</h2>
+          <p class="font-inter text-sm text-gray-400">
+            I have created completely responsive landing pages layouts , good
+            UI/UX design and practice projects
+          </p>
+        </div>
+        <div class="project-r flex-1 p-3">
+          <div class="other-projects py-10 px-8 flex w h-96 justify-center items-center bg-[#F6F5FA]  rounded-xl">
+            <div class="swiper mySwiper md:w-[400px] h-[320px] w-[260px]">
+              <div class="swiper-wrapper">
+                <div class="swiper-slide swiper-card ">
+                  <i class="ri-global-line text-4xl bg-gray-100 p-4 rounded-lg"></i>
+                  <h4 class="text-lg font-semibold font-inter">Custom Web Development</h4>
+                  <p class="para">Tailored web development solutions to meet your specific needs. Whether it's a
+                    personal blog, a corporate website, or an e-commerce platform, I build custom websites from scratch
+                    using HTML, CSS, and JavaScript, ensuring they are fast, secure, and scalable.</p>
+                </div>
+                <div class="swiper-slide swiper-card ">
+                  <i class="ri-pages-line text-4xl bg-gray-100 p-4 rounded-lg"></i>
+                  <h4 class="text-lg font-semibold font-inter">Responsive Web Design</h4>
+                  <p class="para">I create visually appealing and fully responsive websites that look great on any
+                    device. Using HTML, CSS, and Tailwind CSS, I ensure that your site delivers an optimal viewing
+                    experience across desktops, tablets, and smartphones.</p>
+                </div>
+                <div class="swiper-slide swiper-card ">
+                  <i class="ri-palette-fill text-4xl bg-gray-100 p-4 rounded-lg"></i>
+                  <h4 class="text-lg font-semibold font-inter">UI/UX Design</h4>
+                  <p class="para">Crafting intuitive and engaging user interfaces and experiences. I focus on
+                    understanding your users’ needs and behaviors to design interfaces that are not only visually
+                    appealing but also easy to navigate and use. I ensure your website provides a seamless and enjoyable
+                    experience for your users.</p>
+                </div>
+                <div class="swiper-slide swiper-card ">
+                  <i class="ri-tailwind-css-fill text-4xl bg-gray-100 p-4 rounded-lg"></i>
+                  <h4 class="text-lg font-semibold font-inter">Tailwind CSS Integration</h4>
+                  <p class="para">Specializing in Tailwind CSS, I design and implement sleek, modern, and efficient user
+                    interfaces. Tailwind CSS allows for rapid prototyping and consistent design, providing your site
+                    with a unique and professional look.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="About" class="py-16 w-full text-center">
+      <div class="wrap overflow-y-hidden text-gray-400 bg-[#f4f0f0]">
+        <div class="about-me md:text-8xl text-5xl animate-translateX whitespace-nowrap py-4  ">
+          <h4 class="font-semibold inline-block ">About Me<span> <i class="ri-arrow-right-up-line"></i></span></h4>
+          <h4 class="font-semibold inline-block">About Me<span> <i class="ri-arrow-right-up-line"></i></span></h4>
+          <h4 class="font-semibold inline-block">About Me<span> <i class="ri-arrow-right-up-line"></i></span></h4>
+          <h4 class="font-semibold inline-block">About Me<span> <i class="ri-arrow-right-up-line"></i></span></h4>
+        </div>
+      </div>
+      <div class="about-details w-full my-4">
+        <div class="flex divide-x-2 my-2 ">
+          <div class="aside w-1/3 font-inter text-2xl text-[#C2C2C2] p-3">About Me</div>
+          <div class="content-about  flex-1 text-left p-3 para">Hello! I'm Muhammad Azan Ahmad, a passionate web developer and
+            designer with a knack for creating stunning, user-friendly websites. With a strong foundation in HTML, CSS,
+            and JavaScript, I bring your digital ideas to life with precision and creativity.</div>
+        </div>
+        <div class="flex divide-x-2 my-2 ">
+          <div class="aside w-1/3 font-inter text-2xl text-[#C2C2C2] p-3">Skills
+          </div>
+          <div class="content-about  flex-1 text-left p-3 para">
+            <ul class="list-disc mx-2 text-black">
+              <li>
+                <h5 class="font-semibold">HTML & CSS:</h5>
+                <p class="para">Crafting the structure and style of web pages with clean, efficient code that ensures a
+                  seamless user experience.</p>
+              </li>
+              <li>
+                <h5 class="font-semibold">JavaScript:</h5>
+                <p class="para">Adding interactivity and dynamic content to websites, making them more engaging and
+                  responsive to user input.</p>
+              </li>
+              <li>
+                <h5 class="font-semibold">Tailwind CSS: </h5>
+                <p class="para">Specializing in Tailwind CSS to create modern, scalable, and maintainable designs
+                  quickly. This utility-first framework allows me to design responsive layouts efficiently.</p>
+              </li>
+              <li>
+                <h5 class="font-semibold">UI/UX Design: </h5>
+                <p class="para">Designing intuitive and visually appealing user interfaces with a focus on user
+                  experience. I ensure that every interaction is meaningful and every design decision is user-centric.
+                </p>
+              </li>
+              <li>
+                <h5 class="font-semibold">Git & GitHub: </h5>
+                <p class="para"> Utilizing Git for version control to manage and track changes in projects efficiently.
+                  Leveraging GitHub for collaboration, code sharing, and deploying projects seamlessly.</p>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="flex divide-x-2 my-2 ">
+          <div class="aside w-1/3 font-inter text-2xl text-[#C2C2C2] p-3">Education
+          </div>
+          <div class="content-about  flex-1 text-left p-3 para">
+            <ul class="list-disc mx-2 text-black">
+              <li>
+                <h5 class="font-semibold">Matriculation in Computer Science:</h5>
+                <p class="para">I completed my matriculation with a focus on computer science, laying the groundwork for
+                  my passion in technology and web development.</p>
+              </li>
+              <li>
+                <h5 class="font-semibold">Intermediate in Computer Science: </h5>
+                <p class="para">I furthered my education in computer science at the intermediate level, gaining deeper
+                  insights into programming and web technologies..</p>
+              </li>
+              <li>
+                <h5 class="font-semibold">TUndergraduate in BS Computer Science: </h5>
+                <p class="para">Currently, I am an undergraduate student pursuing a Bachelor of Science in Computer
+                  Science. My academic journey is equipping me with advanced knowledge and skills to excel in the field
+                  of web development.</p>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="Contact" class="py-16">
+      <div class="wrap overflow-y-hidden text-gray-400 bg-[#f4f0f0]">
+        <div class="about-me md:text-8xl text-5xl animate-translateX whitespace-nowrap py-4  ">
+          <h4 class="font-semibold inline-block ">Contact Me<span> <i class="ri-arrow-right-up-line"></i></span></h4>
+          <h4 class="font-semibold inline-block">Contact Me<span> <i class="ri-arrow-right-up-line"></i></span></h4>
+          <h4 class="font-semibold inline-block">Contact Me<span> <i class="ri-arrow-right-up-line"></i></span></h4>
+          <h4 class="font-semibold inline-block">Contact Me<span> <i class="ri-arrow-right-up-line"></i></span></h4>
+        </div>
+      </div>
+      <div class="head md:text-7xl text-4xl  max-w-[45rem] md:pb-16 pb-8">Hey! We are ready to <span
+          class="text-gray-400">consult you_</span></div>
+
+      <form action="https://formsubmit.co/azanahmad29266@gmail.com" method="post" class="space-y-8 p-3">
+        <div class="md:text-4xl text-2xl md:w-[80%]">
+          <label for="Name">My name is</label>
+          <input type="text" id="Name" name="name" placeholder="Enter first and last name"
+            class=" outline-none  border-b-gray-400 border-b-2 text-gray-400  ">
+          <label for="service">and i'm intrested in</label>
+          <input type="text" id="Service" name="service" placeholder="Service Name"
+            class=" outline-none  border-b-gray-400 border-b-2 text-gray-400  max-w-40 md:max-w-max">
+          <span>.</span>
+        </div>
+        <div class="md:text-4xl text-2xl md:w-[80%]">
+          <label for="mail">Please,contact me at</label>
+          <input type="email " name="contact" required id="mail" placeholder="name@example.com"
+            class=" outline-none  border-b-gray-400 border-b-2 text-gray-400  ">
+          <span>.</span>
+        </div>
+        <div class="md:text-4xl text-2xl md:w-[80%]">
+          <label for="msg">Optionally, i'm sharing more:</label>
+          <input type="email " name="msg" required id="msg" placeholder="other information details"
+            class=" outline-none  border-b-gray-400 border-b-2 text-gray-400  ">
+          <span>.</span>
+        </div>
+        <button type="submit"
+          class="px-6 py-3 rounded-xl bg-black text-white hover:bg-gray-400 duration-150 hover:text-black font-normal">Send
+          request</button>
+      </form>
+    </section>
+
+    <footer class=" p-4 font-inter">
+      <div class="wrap bg-gray-50 p-6 flex justify-between md:flex-row flex-col">
+        <div class="name font-semibold text-lg">Muhammad Azan Ahmad</div>
+        <ul class="flex space-x-6   ">
+          <li><a href="#Project">Project</a></li>
+          <li><a href="#About">About me</a></li>
+          <li><a href="#Contact">Contact</a></li>
+        </ul>
+      </div>
+      <p class="text-center font-thin"> &#169; 2024 | Muhammad Azan Ahmad all right reserve</p>
+    </footer>
+
+  <!-- swper js -->
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+  <script>
+    var swiper = new Swiper(".mySwiper", {
+      effect: "cards",
+      grabCursor: true,
+    });
+  </script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"
+    integrity="sha512-7eHRwcbYkK4d9g/6tD/mhkf++eoTHwpNM9woBxtPUBWm67zeAfFC+HrdoE2GanKeocly/VxeLvIqwvCdk7qScg=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js" integrity="sha512-onMTRKJBKz8M1TnqqDuGBlowlH0ohFzMXYRNebz+yOcc5TQr/zAKsthzhuv0hiyUKEiQEQXEynnXCvNTOk50dg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+</body>
+</html>
