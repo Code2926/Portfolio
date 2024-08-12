@@ -1,29 +1,46 @@
-# Muhammad Azan Ahmad's Portfolio
+# My Portfolio
+=====================
 
-Welcome to my portfolio! This website showcases my skills and projects as a front-end web developer. It includes a variety of sections such as Projects, Services, About, and Contact.
+A responsive web application designed to showcase the features and benefits of a clipboard management tool.
 
-## **Features**
+## Technologies Used
+--------------------
 
-- **Responsive Design:** The portfolio adapts to different screen sizes using Tailwind CSS.
-- **Interactive Slider:** A full-screen slider introduces the website with a smooth animation.
-- **Project Showcases:** Links to various projects with brief descriptions and visuals.
-- **Service Offerings:** Detailed information about the services I provide.
-- **Contact Form:** A contact form that sends inquiries directly to my email.
+* HTML5
+* CSS3 (with Tailwind CSS framework)
+* JavaScript (with script.js file)
+* Fonts: Alata and Poppins from Google Fonts
 
-## **Technologies Used**
+## Features
+------------
 
-- **HTML5:** For structuring the content.
-- **CSS3:** For styling the pages.
-- **Tailwind CSS:** For modern, responsive design.
-- **JavaScript:** For interactive elements.
-- **Swiper JS:** For creating the project slider.
-- **Animate.css:** For animations.
-- **Remix Icon:** For icons.
+* Responsive design for desktop and mobile devices
+* Loading screen with animation
+* Hero section with background image and call-to-action buttons
+* Snippets section with features and television image
+* Access Clipboard section with devices image
+* Workflow section with tools and company logos
+* Before footer section with call-to-action buttons
+* Footer section with links, logos, and social media icons
 
-## **Getting Started**
+## How to Use
+--------------
 
-To get started with this portfolio, follow these steps:
+1. Open the `index.html` file in a web browser to view the portfolio.
+2. Click on the call-to-action buttons to navigate through the different sections.
+3. Explore the features and benefits of the clipboard management tool.
 
-1. **Clone the Repository:**
-   ```bash
-   git clone https://github.com/code2926/your-repository.git
+## Credits
+---------
+
+* [Code Crafter] - Developer and Designer
+
+## License
+---------
+
+This portfolio is licensed under the MIT License. See the `LICENSE.txt` file for details.
+
+## Contact
+---------
+
+If you have any questions or feedback, please don't hesitate to contact me at [peekaboo29266@gmail.com] or [[(https://github.com/Code2926)]].
