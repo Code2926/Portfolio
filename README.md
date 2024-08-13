@@ -43,4 +43,19 @@ This portfolio is licensed under the MIT License. See the `LICENSE.txt` file for
 ## Contact
 ---------
 
-If you have any questions or feedback, please don't hesitate to contact me at [peekaboo29266@gmail.com] or [https://github.com/Code2926].
+If you have any questions or feedback, please don't hesitate to contact me at 
+<h3 align="left">Connect with me:</h3>
+<p align="left">
+    <a href="https://linkedin.com/in/code-crafter-bb69ba312" target="_blank">
+        <img align="center" src="linkdin-logo.png" alt="code-crafter" height="30" width="40" />
+    </a>
+    <a href="https://www.facebook.com/profile.php?id=61559286300797" target="_blank">
+        <img align="center" src="facebook-logo.png" alt="code-crafter" height="30" width="40" />
+    </a>
+    <a href="mailto:peekaboo29266@gmail.com" target="_blank">
+        <img align="center" src="gmail-logo.png" alt="email" height="30" width="40" />
+    </a>
+    <a href="https://github.com/Code2926" target="_blank">
+        <img align="center" src="github-logo.png" alt="github" height="30" width="40" />
+    </a>
+</p>
