@@ -43,4 +43,4 @@ This portfolio is licensed under the MIT License. See the `LICENSE.txt` file for
 ## Contact
 ---------
 
-If you have any questions or feedback, please don't hesitate to contact me at [peekaboo29266@gmail.com] or [[(https://github.com/Code2926)]].
+If you have any questions or feedback, please don't hesitate to contact me at [peekaboo29266@gmail.com] or [https://github.com/Code2926].
